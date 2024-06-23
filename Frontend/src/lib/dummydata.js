@@ -2,7 +2,7 @@ export const listData = [
   {
     id: 1,
     title: "Luxurious Apartment with Scenic View",
-    img: "https://images.unsplash.com/photo-1549830038-872c8b687c01?auto=format&fit=crop&w=1260&h=750&q=80",
+    img: "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     bedroom: 3,
     bathroom: 2,
     price: 25000,
@@ -13,7 +13,7 @@ export const listData = [
   {
     id: 2,
     title: "Cozy 2-Bedroom Flat in Koregaon Park",
-    img: "https://images.unsplash.com/photo-1579783483450-cc1c1a0eb7d1?auto=format&fit=crop&w=1260&h=750&q=80",
+    img: "https://images.pexels.com/photos/1428348/pexels-photo-1428348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     bedroom: 2,
     bathroom: 1,
     price: 18000,
@@ -24,7 +24,7 @@ export const listData = [
   {
     id: 3,
     title: "Modern Studio Apartment Near Hinjewadi IT Park",
-    img: "https://images.unsplash.com/photo-1593642532537-7e77b3b4b3c2?auto=format&fit=crop&w=1260&h=750&q=80",
+    img: "https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     bedroom: 1,
     bathroom: 1,
     price: 12000,
@@ -35,7 +35,7 @@ export const listData = [
   {
     id: 4,
     title: "Spacious Penthouse with Private Terrace",
-    img: "https://images.unsplash.com/photo-1559827291-76d49ac7ca66?auto=format&fit=crop&w=1260&h=750&q=80",
+    img: "https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     bedroom: 4,
     bathroom: 3,
     price: 35000,
@@ -46,7 +46,7 @@ export const listData = [
   {
     id: 5,
     title: "Elegant 3-Bedroom Flat in Kothrud",
-    img: "https://images.unsplash.com/photo-1588940119333-4b65a16b45f0?auto=format&fit=crop&w=1260&h=750&q=80",
+    img: "https://images.pexels.com/photos/276625/pexels-photo-276625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     bedroom: 3,
     bathroom: 2,
     price: 22000,
@@ -61,10 +61,10 @@ export const singlePostData = {
   title: "Luxury Apartment with a View",
   price: 25000,
   images: [
-    "https://images.unsplash.com/photo-1549830038-872c8b687c01?auto=format&fit=crop&w=1260&h=750&q=80",
-    "https://images.unsplash.com/photo-1579783483450-cc1c1a0eb7d1?auto=format&fit=crop&w=1260&h=750&q=80",
-    "https://images.unsplash.com/photo-1593642532537-7e77b3b4b3c2?auto=format&fit=crop&w=1260&h=750&q=80",
-    "https://images.unsplash.com/photo-1559827291-76d49ac7ca66?auto=format&fit=crop&w=1260&h=750&q=80",
+    "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/1428348/pexels-photo-1428348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   ],
   bedRooms: 3,
   bathroom: 2,
@@ -83,5 +83,5 @@ export const singlePostData = {
 export const userData = {
   id: 1,
   name: "Jane Doe",
-  img: "https://images.unsplash.com/photo-1554780336-390cd4ed8f8e?auto=format&fit=crop&w=1260&h=750&q=80",
+  img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 };
