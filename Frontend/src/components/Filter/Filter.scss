@@ -1,0 +1,27 @@
+.Filter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h1 {
+    font-weight: 300;
+    font-size: 24px;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 2;
+
+    lebel {
+      font-size: 10px;
+    }
+
+    input,
+    select {
+      width: 100px;
+      padding: 10px;
+      border: 1px solid #e0e0e0;
+    }
+  }
+}
