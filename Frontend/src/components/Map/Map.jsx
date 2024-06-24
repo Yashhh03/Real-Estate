@@ -24,5 +24,5 @@ export default function Map({ items }) {
 }
 
 Map.propTypes = {
-  items: PropTypes.object.isRequired,
+  items: PropTypes.array.isRequired,
 };

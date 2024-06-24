@@ -56,5 +56,5 @@ export default function Slider({ images }) {
 }
 
 Slider.propTypes = {
-  images: PropTypes.object.isRequired,
+  images: PropTypes.array.isRequired,
 };
