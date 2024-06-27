@@ -8,7 +8,6 @@ export default function Register() {
   const [isLoading, setIsLoading] = useState(false);
 
   const navigate = useNavigate();
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
