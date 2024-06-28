@@ -18,8 +18,8 @@ model User {
   email String @unique
   username String @unique
   password String
-  avatar String ?
-  created_at DateTime @default(now())
+  avatar String?
+  createdAt DateTime @default(now())
 
 }
 

@@ -1,7 +1,7 @@
 import "./register.scss";
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
-import apiRequest from "../../lib/apiRequest";
+import apiRequest from "../../lib/apiRequest.js";
 
 export default function Register() {
   const [error, setError] = useState("");
@@ -11,6 +11,7 @@ export default function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
+    setError("");
     const formData = new FormData(e.target);
 
     const username = formData.get("username");
