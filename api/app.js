@@ -12,8 +12,8 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use("/api/auth", authRoute);
-app.use("/api/test ", testRoute);
-app.use("/api/posts ", postRoute);
+app.use("/api/test", testRoute);
+app.use("/api/posts", postRoute);
 
 app.listen(8088, () => {
   console.log("Server is running on port 8088");
