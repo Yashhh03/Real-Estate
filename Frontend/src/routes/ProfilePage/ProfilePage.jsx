@@ -33,7 +33,7 @@ export default function ProfilePage() {
           </div>
           <div className="info">
             <span>
-              Avatar: <img src={currentUser.avatar || "noavatar.jpg"} />
+              Avatar: <img src={currentUser.avatar || "/noavatar.jpg"} />
             </span>
             <span>
               Username: <b>{currentUser.username}</b>
@@ -45,7 +45,9 @@ export default function ProfilePage() {
           </div>
           <div className="title">
             <h1>My List</h1>
-            <button>Create New Post</button>
+            <Link to="/add">
+              <button>Create New Post</button>
+            </Link>
           </div>
           <List />
           <div className="title">
