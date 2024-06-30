@@ -6,7 +6,7 @@ export default function Card({ item }) {
   return (
     <div className="Card">
       <Link to={`/${item.id}`} className="imgContainer">
-        <img src={item.img} />
+        <img src={item.images[0]} />
       </Link>
       <div className="textContainer">
         <h2 className="title">

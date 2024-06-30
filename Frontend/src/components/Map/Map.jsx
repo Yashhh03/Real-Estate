@@ -7,7 +7,11 @@ import PropTypes from "prop-types";
 export default function Map({ items }) {
   return (
     <MapContainer
-      center={[18.5204, 73.8567]}
+      center={
+        items.length === 1
+          ? [items[0].latitude, items[0].longitude]
+          : [18.5204, 73.8567]
+      }
       zoom={10}
       scrollWheelZoom={false}
       className="map"
