@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./chat.scss";
+import PropTypes from "prop-types";
 
-export default function Chat() {
+export default function Chat({ chats }) {
   const [chat, setChat] = useState(true);
 
   return (
@@ -79,3 +80,7 @@ export default function Chat() {
     </div>
   );
 }
+
+Chat.propTypes = {
+  chats: PropTypes.arrayOf(PropTypes.object).isRequired,
+};
