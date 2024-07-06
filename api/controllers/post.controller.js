@@ -11,7 +11,7 @@ export const getPosts = async (req, res) => {
         bedroom: parseInt(query.bedroom) || undefined,
         price: {
           gte: parseInt(query.minPrice) || 0,
-          lte: parseInt(query.maxPrice) || 9999999999,
+          lte: parseInt(query.maxPrice) || 99999999,
         },
       },
     });
@@ -82,6 +82,10 @@ export const deletePost = async (req, res) => {
     const post = await prisma.post.findUnique({
       where: { id },
     });
+
+    if (!post) {
+      return res.status(404).json({ message: "Post not found" });
+    }
 
     if (post.userId !== tokenUserId) {
       return res.status(403).json({ message: "Not authorized" });

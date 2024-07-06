@@ -1,6 +1,5 @@
 import Slider from "../../components/slider/Slider";
 import "./singlePage.scss";
-// import { singlePostData, userData } from "../../lib/dummydata";
 import Map from "../../components/Map/Map";
 import { useLoaderData } from "react-router-dom";
 import DOMPurify from "dompurify";

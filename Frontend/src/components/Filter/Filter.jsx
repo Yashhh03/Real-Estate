@@ -9,9 +9,9 @@ export default function Filter() {
     type: searchParams.get("type") || "",
     city: searchParams.get("city") || "",
     property: searchParams.get("property") || "",
-    minPrice: searchParams.get("minPrice") || "0",
-    maxPrice: searchParams.get("maxPrice") || "10000000",
-    bedroom: searchParams.get("bedroom") || "1",
+    minPrice: searchParams.get("minPrice") || 0,
+    maxPrice: searchParams.get("maxPrice") || 1000000,
+    bedroom: searchParams.get("bedroom") || 1,
   });
 
   const handleChange = (e) => {
@@ -29,7 +29,7 @@ export default function Filter() {
       </h1>
       <div className="top">
         <div className="item">
-          <label htmlFor="city">Location</label>
+          <label htmlFor="city">City</label>
           <input
             type="text"
             id="city"

@@ -9,7 +9,7 @@ import Register from "./routes/Register/Register";
 import LoginPage from "./routes/LoginPage/LoginPage";
 import ProfileUpdatePage from "./routes/ProfileUpdatePage/ProfileUpdatePage";
 import NewPostPage from "./routes/newPostPage/NewPostPage";
-import { listPageLoader, singlePageLoader } from "./lib/loaders";
+import { listPageLoader, singlePageLoader } from "./lib/loaders.js";
 
 function App() {
   const router = createBrowserRouter([
